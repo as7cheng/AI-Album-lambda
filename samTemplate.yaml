@@ -11,7 +11,7 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: 'arn:aws:iam::954518116297:role/service-role/index-photos-role-zwj21oe2'
+      Role: 'Your function execution role'
       Events:
         BucketEvent1:
           Type: S3
@@ -31,7 +31,7 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: 'arn:aws:iam::954518116297:role/service-role/search-photos-role-ozqvd58f'
+      Role: 'Your function execution role'
       Events:
         Api1:
           Type: Api
